@@ -3,7 +3,7 @@
 # Import-Module -Name MsrcSecurityUpdates -Force
 Import-Module .\MsrcSecurityUpdates.psd1 -Verbose -Force
 
-# Set-MSRCApiKey -ApiKey "API KEY PLACEHOLDER" -Verbose
+# Set-MSRCApiKey -ApiKey "810ff29254cd496dbb9413e5c0833f20" -Verbose
 
 if (-not ($global:MSRCApiKey)) {
 
